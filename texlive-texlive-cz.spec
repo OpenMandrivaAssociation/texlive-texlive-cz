@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-cz.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive texlive-cz package.
@@ -32,7 +30,6 @@ TeXLive texlive-cz package.
 %doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.html
 %doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.pdf
 %doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -43,5 +40,3 @@ TeXLive texlive-cz package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
