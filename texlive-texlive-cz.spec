@@ -1,11 +1,11 @@
-# revision 26864
+# revision 30808
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-cz
-Version:	20120808
+Version:	20131009
 Release:	1
 Summary:	TeX Live manual (Czech/Slovak)
 Group:		Publishing
@@ -22,15 +22,15 @@ TeXLive texlive-cz package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdir}/doc/texlive/texlive-cz/Makefile
-%doc %{_texmfdir}/doc/texlive/texlive-cz/csquote.sty
-%doc %{_texmfdir}/doc/texlive/texlive-cz/ec-lmr10-19.png
-%doc %{_texmfdir}/doc/texlive/texlive-cz/live4ht.cfg
-%doc %{_texmfdir}/doc/texlive/texlive-cz/tex-live.css
-%doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.css
-%doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.html
-%doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.pdf
-%doc %{_texmfdir}/doc/texlive/texlive-cz/texlive-cz.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/Makefile
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/csquote.sty
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/ec-lmr10-19.png
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/live4ht.cfg
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/tex-live.css
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.css
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.html
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.pdf
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.tex
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,23 +39,5 @@ TeXLive texlive-cz package.
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf %{buildroot}%{_datadir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120808-1
-+ Revision: 812899
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
-+ Revision: 756629
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
-+ Revision: 719692
-- texlive-texlive-cz
-- texlive-texlive-cz
-- texlive-texlive-cz
-- texlive-texlive-cz
-
+mkdir -p %{buildroot}%{_texmfdistdir}
+cp -fpar doc %{buildroot}%{_texmfdistdir}
