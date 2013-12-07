@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-texlive-cz
 Version:	20131009
-Release:	3
+Release:	4
 Summary:	TeX Live manual (Czech/Slovak)
 Group:		Publishing
 URL:		http://tug.org/texlive
