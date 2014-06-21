@@ -1,12 +1,12 @@
-# revision 30808
+# revision 33936
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-cz
-Version:	20131009
-Release:	6
+Version:	20140621
+Release:	1
 Summary:	TeX Live manual (Czech/Slovak)
 Group:		Publishing
 URL:		http://tug.org/texlive
