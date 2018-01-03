@@ -1,9 +1,3 @@
-# revision 33936
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-cz
 Version:	20170515
 Release:	1
@@ -22,15 +16,7 @@ TeXLive texlive-cz package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/Makefile
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/csquote.sty
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/ec-lmr10-19.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/live4ht.cfg
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/tex-live.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.html
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.pdf
-%doc %{_texmfdistdir}/doc/texlive/texlive-cz/texlive-cz.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-cz
 
 #-----------------------------------------------------------------------
 %prep
