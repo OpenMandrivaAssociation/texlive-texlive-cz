@@ -1,5 +1,5 @@
 Name:		texlive-texlive-cz
-Version:	20170515
+Version:	20180412
 Release:	1
 Summary:	TeX Live manual (Czech/Slovak)
 Group:		Publishing
