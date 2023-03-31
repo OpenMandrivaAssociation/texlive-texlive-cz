@@ -1,6 +1,6 @@
 Name:		texlive-texlive-cz
 Version:	62854
-Release:	1
+Release:	2
 Summary:	TeX Live manual (Czech/Slovak)
 Group:		Publishing
 URL:		http://tug.org/texlive
